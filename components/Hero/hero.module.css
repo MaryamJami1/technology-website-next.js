@@ -24,28 +24,3 @@
     font-weight:500;
    
 }
-
-
-/* .linebefore {
-    position: relative;
-    padding-left: 20px; 
-  }
-  
-  .linebefore::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 20px; 
-    height: 2px;
-    background-color: #191818; 
-  }
-  .linebefore::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 20px; 
-    height: 2px;
-    background-color: #191818; 
-  } */
