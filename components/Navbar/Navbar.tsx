@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from './navbar.module.css';
-import Btn from '../../components/Button/Btn';
+import Btn from '../button/Btn';
 import Logo from '../../public/hero/logo-white2.svg';
 export default function Navbar() {
   return (

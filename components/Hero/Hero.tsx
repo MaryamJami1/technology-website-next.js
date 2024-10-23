@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./hero.module.css"
 import Image from 'next/image'
-import Btn from '../Button/Btn'
+import Btn from '../button/Btn';
 export default function hero() {
   return (
     <header>
