@@ -1,0 +1,70 @@
+
+.content{
+    text-align: center;
+    padding: 5rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.content p{
+font-size: 1.2rem;
+color: #23b852;
+line-height: 3;
+}
+.content h2{
+font-size: 2.5rem;
+font-weight: bolder;
+color: white;
+}
+
+
+.linebefore {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: #23b852;
+  text-transform: uppercase;
+}
+
+.linebefore::before,
+.linebefore::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px; 
+  height: 2px;
+  background-color: #23b852;; 
+}
+
+.linebefore::before {
+  left: -50px; 
+}
+
+.linebefore::after {
+  right: -50px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 10rem;
+    justify-content: space-evenly;
+
+}
+
+.btn {
+    padding: 28px 70px;
+    background-color: rgba(0, 0, 0, 0); 
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    border: 2px solid lightgreen;
+    transition: background-color 1s ease, color 0.5s ease;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #045704, #05ba05); 
+    background-color: #045704; 
+    color: #fff;
+}
