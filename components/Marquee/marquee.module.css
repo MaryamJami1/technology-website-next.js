@@ -6,7 +6,7 @@
   align-items: center;
   background: linear-gradient(to bottom, #11cf72, #74d70e); 
   position: relative;
-  margin:  5rem 0;
+margin-top: 5rem;
 }
 
 .marquee-content {

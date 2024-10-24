@@ -1,0 +1,61 @@
+.bg{
+    background-image:url('../../public/feedback/testimonial_bg_6.jpg');
+    height: 40rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.text{
+    padding:4.6rem 4.5rem;
+}
+
+
+
+.linebefore {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #23b852;
+    text-transform:uppercase;
+    font-weight: 600;
+    line-height: 3;
+  }
+  
+  
+  .linebefore::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35px; 
+    height: 2px;
+    background-color: #23b852;; 
+  }
+  
+  .linebefore::after {
+    right: -45px;
+  }
+  
+
+  .text h3{
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .para {
+color: gray;
+line-height: 1.5;
+padding-top: 1rem;
+
+  }
+
+
+
+
+
+
+
+
+
+  

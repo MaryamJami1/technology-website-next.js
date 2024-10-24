@@ -1,0 +1,136 @@
+.main{
+    padding: 5rem 0;
+}
+.content{
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+    position: relative;
+}
+.content p{
+font-size: 1.2rem;
+color: #23b852;
+line-height: 3;
+}
+.content h2{
+font-size: 2.5rem;
+font-weight: bolder;
+color: white;
+}
+
+.content span{
+    color: #23b852;
+}
+
+.linebefore {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: #23b852;
+  text-transform: uppercase;
+}
+
+.linebefore::before,
+.linebefore::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40px; 
+  height: 2px;
+  background-color: #23b852;; 
+}
+
+.linebefore::before {
+  left: -50px; 
+}
+
+.linebefore::after {
+  right: -50px;
+}
+
+
+
+
+.projects{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 2rem;
+padding-bottom: 5rem;
+
+}
+
+.img1{
+    background-image: url('../../public/studies/project_6_1.jpg');
+    height: 18rem;
+    width: 22rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.img2{
+    background-image: url('../../public/studies/project_6_2.jpg');
+    height: 18rem;
+    width: 22rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3{
+    background-image: url('../../public/studies/project_6_3.jpg');
+    height: 18rem;
+    width: 22rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+
+
+.content2{
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+
+.linebefore2 {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #23b852;
+    text-transform: uppercase;
+  }
+  
+  .linebefore2::before,
+  .linebefore2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 460px; 
+    height: 1px;
+    background-color: #23b85283;; 
+  }
+  
+  .linebefore2::before {
+    left: -500px; 
+  }
+  
+  .linebefore2::after {
+    right: -500px;
+  }
+  
+  
+  
