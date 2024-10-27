@@ -17,3 +17,22 @@
 .text span{
     color: #3b9f10;
 }
+
+.icon{
+    font-size: 35px;
+    color: #fff;
+    margin: 0 0.3rem;
+    background-color: #2f3238fc;
+    border-radius: 50%;
+padding: 0.5rem;
+
+}
+
+.icon:hover{
+    background: linear-gradient(to bottom, #3ee63e, #25a425);
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
