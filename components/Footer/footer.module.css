@@ -1,38 +1,40 @@
-.footer{
+.footer {
     width: 100%;
     height: 5rem;
     background-color: #16181d;
-    margin-top:5rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
 }
 
-.text p{
+.text p {
     color: #fff;
     font-size: 17px;
     font-weight: 500;
 }
 
-.text span{
+.text span {
     color: #3b9f10;
 }
 
-.icon{
+.icon {
     font-size: 35px;
     color: #fff;
     margin: 0 0.3rem;
     background-color: #2f3238fc;
     border-radius: 50%;
-padding: 0.5rem;
+    padding: 0.5rem;
+
 
 }
 
-.icon:hover{
+.icon:hover {
     background: linear-gradient(to bottom, #3ee63e, #25a425);
     cursor: pointer;
+
 }
 
-.link{
+.link {
     text-decoration: none;
 }
