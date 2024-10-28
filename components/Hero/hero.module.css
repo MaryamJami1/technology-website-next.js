@@ -1,27 +1,101 @@
-.bg{
+.bg {
     background-image: url("../../public/hero/hero_bg_9_1.png");
-    height: 40rem;
     width: 100%;
     border-radius: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 2rem 3rem;
     margin-top: 5.5rem;
-  
+    gap: 2rem;
 }
 
-.text h1{
+.text h1 {
     color: #ffffff;
     font-size: 4.5rem;
     padding-right: 5rem;
-
 }
 
-.text p{
+.text p {
     color: #ffffff;
     font-size: 1.1rem;
-    padding: 3rem 0px;
+    padding: 2rem 0;
     line-height: 2;
-    font-weight:500;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1024px) {
+    .bg {
+        flex-direction: column;
+        padding: 1.5rem;
+        align-items: center;
+    }
+
    
+    .text h1 {
+        font-size: 3.5rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    .img{
+        height:28rem;
+        width: 28rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .text{
+        padding: 2.5rem 2.5rem;
+    }
+
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .img{
+        height:25rem;
+        width: 25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg {
+        padding: 1rem;
+        margin-top: 3rem;
+        border-radius: 20px;
+    }
+    .text{
+        padding: 3rem 3rem;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .text p {
+        font-size: 0.85rem;
+    }
+
+    .img{
+        height: 20rem;
+        width: 20rem;
+    }
 }

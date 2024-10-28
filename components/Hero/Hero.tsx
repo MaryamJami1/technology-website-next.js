@@ -17,6 +17,7 @@ export default function hero() {
             alt={"robot"}
             height={640}
             width={500}
+            className={styles.img}
           />
         </div>
       </div>
