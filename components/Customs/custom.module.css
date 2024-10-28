@@ -1,21 +1,21 @@
+/* Original Styling */
 
-.content{
-    text-align: center;
-    padding: 5rem;
-    text-transform: capitalize;
-    position: relative;
+.content {
+  text-align: center;
+  padding: 5rem;
+  text-transform: capitalize;
+  position: relative;
 }
-.content p{
-font-size: 1.2rem;
-color: #23b852;
-line-height: 3;
+.content p {
+  font-size: 1.2rem;
+  color: #23b852;
+  line-height: 3;
 }
-.content h2{
-font-size: 2.5rem;
-font-weight: bolder;
-color: white;
+.content h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: white;
 }
-
 
 .linebefore {
   position: relative;
@@ -30,41 +30,113 @@ color: white;
   content: "";
   position: absolute;
   top: 50%;
-  width: 40px; 
+  width: 40px;
   height: 2px;
-  background-color: #23b852;; 
+  background-color: #23b852;
 }
 
 .linebefore::before {
-  left: -50px; 
+  left: -50px;
 }
 
 .linebefore::after {
   right: -50px;
 }
 
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0rem 10rem;
-    justify-content: space-evenly;
-
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10rem;
+  justify-content: space-evenly;
 }
 
 .btn {
-    padding: 28px 70px;
-    background-color: rgba(0, 0, 0, 0); 
-    color: #fff;
-    text-align: center;
-    border-radius: 50px;
-    margin-bottom: 2rem;
-    font-size: 18px;
-    border: 2px solid lightgreen;
-    transition: background-color 1s ease, color 0.5s ease;
+  padding: 28px 70px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  border: 2px solid lightgreen;
+  transition: background-color 1s ease, color 0.5s ease;
 }
 
 .btn:hover {
-    background-image: linear-gradient(to right, #045704, #05ba05); 
-    background-color: #045704; 
-    color: #fff;
+  background-image: linear-gradient(to right, #045704, #05ba05);
+  background-color: #045704;
+  color: #fff;
+}
+
+/* Responsive Styling */
+
+/* For screens up to 1200px */
+@media (max-width: 1200px) {
+  .content {
+      padding: 4rem;
+  }
+  .content h2 {
+      font-size: 2.2rem;
+  }
+  .buttons {
+      padding: 0 5rem;
+  }
+  .btn {
+      padding: 24px 50px;
+      font-size: 17px;
+  }
+}
+
+/* For screens up to 900px */
+@media (max-width: 900px) {
+  .content {
+      padding: 3rem;
+  }
+  .content h2 {
+      font-size: 2rem;
+  }
+  .buttons {
+      padding: 0 3rem;
+  }
+  .btn {
+      padding: 20px 40px;
+      font-size: 16px;
+  }
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px) {
+  .content {
+      padding: 2rem;
+  }
+  .content h2 {
+      font-size: 1.8rem;
+  }
+  .buttons {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 2rem;
+  }
+  .btn {
+      width: 100%;
+      padding: 18px 20px;
+      font-size: 15px;
+  }
+}
+
+/* For screens up to 400px */
+@media (max-width: 400px) {
+  .content p {
+      font-size: 1rem;
+  }
+  .content h2 {
+      font-size: 1.5rem;
+  }
+  .buttons {
+      padding: 0 1rem;
+  }
+  .btn {
+      padding: 15px;
+      font-size: 14px;
+  }
 }

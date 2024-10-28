@@ -133,4 +133,78 @@ padding-bottom: 5rem;
   }
   
   
+  /* Responsive Adjustments */
+
+
+
+/* For screens up to 900px */
+@media (max-width: 1025px) {
+  .main {
+    padding: 3rem 0;
+  }
+  .content h2 {
+    font-size: 2rem;
+  }
+  .projects {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  .img1,
+  .img2,
+  .img3 {
+   width:50%;
+  }
+  .linebefore2::before,
+  .linebefore2::after {
+    width: 180px;
+  }
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px) {
+  .content h2 {
+    font-size: 1.8rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .projects {
+    gap: 1.5rem;
+
+    
+  }
   
+  .img1,
+  .img2,
+  .img3 {
+   width:50%;
+  }
+
+  .linebefore2::before,
+  .linebefore2::after {
+    width: 100px;
+  }
+}
+
+/* For screens up to 400px */
+@media (max-width: 400px) {
+  .content h2 {
+    font-size: 1.7rem;
+  }
+  .content p {
+    font-size: 0.9rem;
+  }
+  
+
+  .img1,
+  .img2,
+  .img3 {
+   width: 18rem;
+  }
+
+  .linebefore2::before,
+  .linebefore2::after {
+    width: 70px;
+  }}
