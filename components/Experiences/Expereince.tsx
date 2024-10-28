@@ -32,15 +32,15 @@ export default function Expereince() {
 
                     </div>
                     <p className={styles.para}><span>5,000</span>+ clients across <br /> 25 countries.</p>
-                    <div>
+                    
                         <Image
                             src={'/expereince/service_2.png'}
                             alt={"robot"}
-                            height={330}
+                            height={290}
                             width={450}
                             className={styles.img}
                         />
-                    </div>
+                    
 
                 </div>
             </div>

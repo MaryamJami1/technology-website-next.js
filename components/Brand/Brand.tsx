@@ -16,9 +16,9 @@ export default function Brand() {
                 <div className={styles.brand}>
                     <Brand1/>
                     <Brand2 />
+                    <Brand5 />
                     <Brand3 />
                     <Brand4 />
-                    <Brand5 />
                     <Brand6 />
                    
                 </div>
