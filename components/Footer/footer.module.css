@@ -1,21 +1,29 @@
 .footer {
     width: 100%;
-    height: 5rem;
+    height: auto; /* Change height to auto for flexibility */
     background-color: #16181d;
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem;
+    align-items: center; /* Center items vertically */
+    padding: 2rem 5rem; /* Padding for larger screens */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .text p {
     color: #fff;
     font-size: 17px;
     font-weight: 500;
+    margin: 0; /* Remove default margin */
 }
 
 .text span {
     color: #3b9f10;
+}
+
+.icons {
+    display: flex; /* Keep icons in a row */
+    align-items: center; /* Center icons vertically */
 }
 
 .icon {
@@ -25,16 +33,50 @@
     background-color: #2f3238fc;
     border-radius: 50%;
     padding: 0.5rem;
-
-
 }
 
 .icon:hover {
     background: linear-gradient(to bottom, #3ee63e, #25a425);
     cursor: pointer;
-
 }
 
 .link {
     text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center align items */
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .text {
+        margin-bottom: 1rem; /* Space between text and icons */
+        text-align: center; /* Center text */
+    }
+
+    .text p {
+        font-size: 15px; /* Slightly smaller font size */
+    }
+
+    .icon {
+        font-size: 30px; /* Slightly smaller icon size */
+        margin: 0 0.2rem; /* Adjust margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 1rem; /* Reduce padding for very small screens */
+    }
+
+    .text p {
+        font-size: 14px; /* Further reduce font size */
+    }
+
+    .icon {
+        font-size: 25px; /* Further reduce icon size */
+    }
 }
