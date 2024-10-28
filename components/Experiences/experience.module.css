@@ -239,9 +239,13 @@
   .shape h2 {
       font-size: 1.8rem;
   }
+  .box1 {
+    width: 100%;
+    margin: 1rem 0;
+}
   .img{
     height: 22rem;
-    width: 19rem;
+    width: 16rem;
 
   }
   .para {
