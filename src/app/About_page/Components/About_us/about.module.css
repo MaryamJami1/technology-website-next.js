@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    height: 80vh; 
+    color: #fff;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+}
+
+.imageDiv {
+    position: relative;
+    flex: 0.8;
+    height: 25rem;
+   
+}
+.img{
+    border-radius: 150px;
+}
+
+.textDiv {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+   padding: 2rem 2rem;
+}
+
+.circle {
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    background-color:  #08a91d;
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    outline: 10px solid rgba(255, 255, 255, 0.8);
+}
+
+.counter {
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.years {
+    font-size: 1rem; 
+    font-weight: 600;
+}
+
+.linebefore {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #1af037;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 3;
+  }
+  
+  .linebefore::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35px; 
+    height: 2px;
+    background-color: #1af037;
+   
+  }
+  
+  
+  .para {
+    color: gray;
+    line-height: 1.5;
+    padding-top: 2rem;
+  }
+
+
+.h2 {
+    font-size: 2.5rem; 
+    padding-top: 14px;
+}
+.span{
+    color: #1af037;
+}

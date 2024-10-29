@@ -4,18 +4,23 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from './navbar.module.css';
-import Btn from '../button/Btn';
-import Logo from '../../public/hero/logo-white2.svg';
+import Btn from '../../../components/button/Btn';
+import Logo from '../../../public/hero/logo-white2.svg'
+
+
+
+
 export default function Navbar() {
   return (
     <nav>
       <div className={styles.navbar}>
         <h1 className={styles.logo}>
-          <Logo />
+          <Logo/>
         </h1>
         <ul className={styles.ul}>
-        <li><Link href="/about" className={styles.link}>Home</Link></li>
-          <li><Link href="/about" className={styles.link}>About</Link></li>
+        
+        <li><Link href="/" className={styles.link}>Home</Link></li>
+          <li><Link href="/About_page" className={styles.link}>About</Link></li>
           <li><Link href="/pages" className={styles.link}>Projects</Link></li>
           <li><Link href="/contact" className={styles.link}>Contact</Link></li>
         </ul>
