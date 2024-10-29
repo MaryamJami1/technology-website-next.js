@@ -21,8 +21,7 @@ export default function Navbar() {
         
         <li><Link href="/" className={styles.link}>Home</Link></li>
           <li><Link href="/About_page" className={styles.link}>About</Link></li>
-          <li><Link href="/pages" className={styles.link}>Projects</Link></li>
-          <li><Link href="/contact" className={styles.link}>Contact</Link></li>
+          <li><Link href="/Contact_page" className={styles.link}>Contact</Link></li>
         </ul>
         <Btn text={"Join Community"} />
       </div>
