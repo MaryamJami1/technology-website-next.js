@@ -1,38 +1,38 @@
 .container {
     display: flex;
-    height: 80vh; 
+    height: 80vh;
     color: #fff;
-    margin-top: 4rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    
+    margin: rem 5rem 0 5rem;
 }
 
+/* Image container */
 .imageDiv {
     position: relative;
     flex: 0.8;
     height: 25rem;
-   
 }
-.img{
+
+.img {
     border-radius: 150px;
 }
 
+/* Text container */
 .textDiv {
-    flex: 1; 
+    flex: 1;
     display: flex;
     flex-direction: column;
-   padding: 2rem 2rem;
+    padding: 2rem;
 }
 
+/* Circle for counter animation */
 .circle {
     position: absolute;
     bottom: 2%;
     right: 5%;
-    background-color:  #08a91d;
+    background-color: #08a91d;
     border-radius: 50%;
-    width: 100px; 
-    height: 100px; 
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,16 +41,18 @@
     outline: 10px solid rgba(255, 255, 255, 0.8);
 }
 
+/* Counter text */
 .counter {
-    font-size: 2rem; 
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .years {
-    font-size: 1rem; 
+    font-size: 1rem;
     font-weight: 600;
 }
 
+/* Line style before headings */
 .linebefore {
     position: relative;
     display: inline-block;
@@ -59,30 +61,87 @@
     text-transform: uppercase;
     font-weight: 600;
     line-height: 3;
-  }
-  
-  .linebefore::after {
+}
+
+.linebefore::after {
     content: "";
     position: absolute;
     top: 50%;
-    width: 35px; 
+    width: 35px;
     height: 2px;
     background-color: #1af037;
-   
-  }
-  
-  
-  .para {
+}
+
+/* Paragraph styling */
+.para {
     color: gray;
     line-height: 1.5;
     padding-top: 2rem;
-  }
-
+}
 
 .h2 {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     padding-top: 14px;
 }
-.span{
+
+.span {
     color: #1af037;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 2rem;
+        height: auto;
+    }
+
+    .imageDiv {
+        height: 20rem;
+        padding: 10rem;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+        bottom: 5%;
+        right: 2%;
+    }
+
+    .counter {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 4rem;
+    }
+
+    .imageDiv {
+        height: 18rem;
+        padding: 8rem;
+    }
+
+    .img {
+        border-radius: 30px;
+    }
+    .textDiv {
+        padding: 1rem;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+        bottom: 2.5%;
+        right: 3%;
+    }
+
+    .counter {
+        font-size: 1.3rem;
+    }
+
+    .h2 {
+        font-size: 1.8rem;
+    }
 }

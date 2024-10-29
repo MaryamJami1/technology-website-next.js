@@ -18,9 +18,6 @@ const About = () => {
                 <h2 className={styles.h2}>We Are Increasing Business <br /> Success With <span className={styles.span}>IT Solution</span></h2>
                 <p className={styles.para}>Collaboratively envisioneer user friendly supply chains and cross unit imperative. Authoritativel fabricate competitive resource and holistic synergy. Uniquely generate efficient schemas before future.</p>
 
-
-
-
             </div>
         </div>
     );
