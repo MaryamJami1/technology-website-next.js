@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import styles from './team.module.css'
 export default function Team() {
     return (
