@@ -1,11 +1,11 @@
+/* Existing Styles */
 .bg {
   background-image: url('../../public/feedback/testimonial_bg_6.jpg');
-  height: 38rem;
+  height: 40rem;
   width: 100%;
   background-position: center;
   background-size: cover;
 }
-
 
 .text {
   padding-top: 3rem;
@@ -13,8 +13,6 @@
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
-
 
 .linebefore {
   position: relative;
@@ -26,7 +24,6 @@
   line-height: 3;
 }
 
-
 .linebefore::after {
   content: "";
   position: absolute;
@@ -34,13 +31,11 @@
   width: 35px;
   height: 2px;
   background-color: #23b852;
-  ;
 }
 
 .linebefore::after {
   right: -45px;
 }
-
 
 .text h3 {
   color: #fff;
@@ -48,30 +43,13 @@
   line-height: 1.2;
 }
 
-.para {
-  color: gray;
-  line-height: 1;
-  padding-top: 1rem;
-
-}
-
-
-
-
-
-
-
-
-
 
 /* Carousel */
 .carousel {
   position: relative;
   width: 100%;
   max-width: 60%;
-  /* Adjust carousel width */
-  height: 20rem;
-  /* Adjust carousel height */
+  height: 22rem;
   overflow: hidden;
   margin: auto;
   background-color: #2d2f34;
@@ -82,7 +60,6 @@
 .carouselContent {
   display: flex;
   width: 300%;
-  /* Allows three slides to be shown in sequence */
   animation: slide 8s infinite ease-in-out;
 }
 
@@ -95,22 +72,18 @@
 
 
 @keyframes slide {
-
   0%,
   20% {
     transform: translateX(0);
   }
-
   33.33%,
   53.33% {
     transform: translateX(-100%);
   }
-
   66.66%,
   86.66% {
     transform: translateX(-200%);
   }
-
   100% {
     transform: translateX(0);
   }
@@ -126,20 +99,98 @@
   font-size: 1.1rem;
 }
 
-
-
 .div2 {
   display: flex;
   padding: 1rem 0;
-
 }
 
 .div2 p {
   font-size: 1.1rem;
   margin-left: 0.8rem;
-
 }
 
 .logo {
   margin-left: 25rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .linebefore {
+    font-size: 16px;
+  }
+
+  .text h3 {
+    font-size: 2rem;
+  }
+
+  .carousel {
+    max-width: 80%;
+  }
+
+  .logo {
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg {
+    height: 35rem;
+  }
+
+  .text {
+    padding: 2rem 1rem;
+  }
+
+  .linebefore {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .text h3 {
+    font-size: 1.8rem;
+  }
+
+  .carousel {
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg {
+    height: 30rem;
+  }
+
+  .text h3 {
+    font-size: 1.5rem;
+  }
+
+  .img p {
+    padding: 1rem 5rem 1rem0 0;
+    font-size: 0.8rem;
+  }
+  
+
+  .carousel {
+    height: 17rem;
+    max-width: 90%;
+  }
+
+  .div2 {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-left: 0;
+    text-align: center;
+  }
 }
