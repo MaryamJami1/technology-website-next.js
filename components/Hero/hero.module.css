@@ -79,7 +79,7 @@
 @media (max-width: 480px) {
     .bg {
         padding: 1rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         border-radius: 20px;
     }
     .text{
@@ -95,7 +95,7 @@
     }
 
     .img{
-        height: 20rem;
-        width: 20rem;
+        height: 22rem;
+        width: 16rem;
     }
 }
