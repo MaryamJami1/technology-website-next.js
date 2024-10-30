@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 import styles from './navbar.module.css';
-import Btn from '../../../components/button/Btn';
+import Btn from '../../../components/Button/Btn';
 import Logo from '../../../public/hero/logo-white2.svg';
 
 export default function Navbar() {

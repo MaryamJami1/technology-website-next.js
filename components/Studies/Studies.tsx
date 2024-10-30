@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Studies/studies.module.css'
-import Btn from '../button/Btn'
+import Btn from '../Button/Btn'
 
 export default function Studies() {
     return (
