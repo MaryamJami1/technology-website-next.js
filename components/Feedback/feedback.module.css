@@ -1,84 +1,88 @@
-.bg{
-    background-image:url('../../public/feedback/testimonial_bg_6.jpg');
-    height: 38rem;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+.bg {
+  background-image: url('../../public/feedback/testimonial_bg_6.jpg');
+  height: 38rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 
-.text{
-    padding-top:3rem;
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+.text {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 
 
 .linebefore {
-    position: relative;
-    display: inline-block;
-    font-size: 18px;
-    color: #23b852;
-    text-transform:uppercase;
-    font-weight: 600;
-    line-height: 3;
-  }
-  
-  
-  .linebefore::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 35px; 
-    height: 2px;
-    background-color: #23b852;; 
-  }
-  
-  .linebefore::after {
-    right: -45px;
-  }
-  
-
-  .text h3{
-    color: #fff;
-    font-size: 2.5rem;
-    line-height: 1.2;
-  }
-
-  .para {
-color: gray;
-line-height: 1;
-padding-top: 1rem;
-
-  }
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  color: #23b852;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 3;
+}
 
 
+.linebefore::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 2px;
+  background-color: #23b852;
+  ;
+}
 
+.linebefore::after {
+  right: -45px;
+}
+
+
+.text h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.para {
+  color: gray;
+  line-height: 1;
+  padding-top: 1rem;
+
+}
 
 
 
 
 
 
-  
+
+
+
+
 /* Carousel */
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 60%; /* Adjust carousel width */
-  height: 20rem; /* Adjust carousel height */
+  max-width: 60%;
+  /* Adjust carousel width */
+  height: 20rem;
+  /* Adjust carousel height */
   overflow: hidden;
   margin: auto;
   background-color: #2d2f34;
-padding: 2rem;
-border-radius: 20px;
+  padding: 2rem;
+  border-radius: 20px;
 }
 
 .carouselContent {
   display: flex;
-  width: 300%; /* Allows three slides to be shown in sequence */
+  width: 300%;
+  /* Allows three slides to be shown in sequence */
   animation: slide 8s infinite ease-in-out;
 }
 
@@ -91,24 +95,32 @@ border-radius: 20px;
 
 
 @keyframes slide {
-  0%, 20% {
+
+  0%,
+  20% {
     transform: translateX(0);
   }
-  33.33%, 53.33% {
+
+  33.33%,
+  53.33% {
     transform: translateX(-100%);
   }
-  66.66%, 86.66% {
+
+  66.66%,
+  86.66% {
     transform: translateX(-200%);
   }
+
   100% {
     transform: translateX(0);
   }
 }
-.img{
+
+.img {
   padding-top: 0.5rem;
 }
 
-.img p{
+.img p {
   color: #fff;
   padding: 1rem 0;
   font-size: 1.1rem;
@@ -116,18 +128,18 @@ border-radius: 20px;
 
 
 
-.div2{
+.div2 {
   display: flex;
   padding: 1rem 0;
 
 }
 
-.div2 p{
+.div2 p {
   font-size: 1.1rem;
   margin-left: 0.8rem;
 
 }
 
-.logo{
-  margin-left:25rem;
+.logo {
+  margin-left: 25rem;
 }

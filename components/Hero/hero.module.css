@@ -24,6 +24,22 @@
     font-weight: 500;
 }
 
+.btn{
+    background: linear-gradient(to bottom, #3ee63e, #25a425);
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+  
+  .btn:hover {
+      background: linear-gradient(to right, #25a425, #3ee63e); 
+    }
 
 @media (max-width: 1024px) {
     .bg {
@@ -44,7 +60,7 @@
         text-align: center;
         padding: 1.5rem 0;
     }
-
+ 
     .img{
         height:28rem;
         width: 28rem;
@@ -83,7 +99,7 @@
         border-radius: 20px;
     }
     .text{
-        padding: 3rem 3rem;
+        padding: 5rem 3rem 0 3rem;
     }
 
     .text h1 {
@@ -93,6 +109,7 @@
     .text p {
         font-size: 0.85rem;
     }
+
 
     .img{
         height: 22rem;

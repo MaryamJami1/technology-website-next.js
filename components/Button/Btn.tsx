@@ -8,7 +8,7 @@ interface Iprops {
 
 export default function Btn(props: Iprops) {
   return (
-    <button className={`${styles.btn} ${props.className || ''}`}>
+    <button className={` ${props.className || ''}`}>
       {props.text}
     </button>
   );

@@ -25,7 +25,20 @@
 
 .btn {
     display: block; 
-}
+    background: linear-gradient(to bottom, #3ee63e, #25a425);
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+      background: linear-gradient(to right, #25a425, #3ee63e); 
+    }
 
 .ul li {
     list-style: none;

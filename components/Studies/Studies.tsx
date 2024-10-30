@@ -17,7 +17,7 @@ export default function Studies() {
             </div>
             
             <div className={styles.content2}>
-                <p className={styles.linebefore2}><Btn text={"All Case Studies"} /></p>
+                <p><Btn text={"All Case Studies"} className={styles.btn}/></p>
               
             </div>
         </div>
