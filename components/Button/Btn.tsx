@@ -1,14 +1,16 @@
-import React from 'react'
-import styles from './btn.module.css'
+import React from 'react';
+import styles from './btn.module.css';
 
-interface Iprops{
-  text:string
+interface Iprops {
+  text: string;
+  className?: string;
 }
 
-export default function Btn(props:Iprops) {
+export default function Btn(props: Iprops) {
   return (
-    <button className={styles.btn}>
-    {props.text}
+    <button className={`${styles.btn} ${props.className || ''}`}>
+      {props.text}
     </button>
-  )
+  );
 }
+
