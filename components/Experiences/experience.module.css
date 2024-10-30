@@ -241,11 +241,12 @@
   }
   .box1 {
     width: 100%;
-    margin: 1rem 0;
+    margin: 0;
 }
   .img{
-    height: 22rem;
-    width: 16rem;
+    height: 23.3rem;
+    width: 20rem;
+    margin: 0 0 0 1.4rem;
 
   }
   .para {
