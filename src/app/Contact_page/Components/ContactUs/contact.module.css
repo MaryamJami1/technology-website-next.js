@@ -1,4 +1,4 @@
-/* styles/ContactSection.module.css */
+
 .contactSection {
     display: flex;
     justify-content: space-around;
@@ -22,17 +22,17 @@
     padding: 3rem 1rem;
     background-color: #100f0ff6;
     border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(231, 224, 224, 0.422); /* Box shadow for a soft, elevated effect */
+    box-shadow: 0 8px 16px rgba(231, 224, 224, 0.422);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contactItem:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(231, 224, 224, 0.901); /* Shadow on hover for a more pronounced effect */
+    box-shadow: 0 12px 24px rgba(231, 224, 224, 0.901);
 }
 
 .iconWrapper {
-    background-color: #28a745; /* Green background */
+    background-color: #28a745; 
     width: 60px;
     height: 60px;
     display: flex;
@@ -40,12 +40,12 @@
     justify-content: center;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    box-shadow: 0 4px 8px rgb(154, 147, 147); /* Shadow around the icon */
+    box-shadow: 0 4px 8px rgb(154, 147, 147); 
 }
 
 .icon {
     font-size: 2rem;
-    color: #fff; /* White icon color */
+    color: #fff; 
 }
 
 .h2 {
