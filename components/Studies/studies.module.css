@@ -159,14 +159,16 @@ padding-bottom: 5rem;
   }
   .projects {
     gap: 1.5rem;
+    
 
     
   }
+    
   
   .img1,
   .img2,
   .img3 {
-   width:25rem;
+   width:22rem;
   }
 
   .linebefore2::before,
@@ -183,7 +185,7 @@ padding-bottom: 5rem;
   .content p {
     font-size: 0.9rem;
   }
-  
+
 
   .img1,
   .img2,
