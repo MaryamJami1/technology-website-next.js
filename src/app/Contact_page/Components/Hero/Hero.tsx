@@ -3,8 +3,8 @@ import styles from './hero.module.css';
 import Link from 'next/link';
 
 export default function Contact() {
-    return (
-        <div className={styles.hero}>
+  return (
+    <div className={styles.hero}>
       <div className={styles.overlay}>
         <h1 className={styles.heading}>Contact Us</h1>
         <div className={styles.links}>
@@ -15,5 +15,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    );
+  );
 }

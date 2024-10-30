@@ -4,11 +4,11 @@ import { Barlow } from '@next/font/google';
 import Navbar from "./Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-const barlow = Barlow({ subsets: ['latin'],weight: ['400', '700'] }); 
+const barlow = Barlow({ subsets: ['latin'], weight: ['400', '700'] });
 
 
 export const metadata: Metadata = {
-  title: "IT Technology",
+  title: "Technology",
   description: "Technology by maryam jamil",
 };
 
@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={barlow.className}>
-      <Navbar />
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

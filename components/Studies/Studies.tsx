@@ -15,10 +15,10 @@ export default function Studies() {
                 <div className={styles.img2}></div>
                 <div className={styles.img3}></div>
             </div>
-            
+
             <div className={styles.content2}>
-                <p><Btn text={"All Case Studies"} className={styles.btn}/></p>
-              
+                <p><Btn text={"All Case Studies"} className={styles.btn} /></p>
+
             </div>
         </div>
     )

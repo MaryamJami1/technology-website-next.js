@@ -7,10 +7,10 @@ export default function hero() {
     <header>
       <div className={styles.bg}>
         <div className={styles.text}>
-          <h1>The Technology <br/> Beyond Artificial <br /> Intelligent</h1>
-          <p>We provide many features that you can use cheaply and easily. Try it <br/> now and get an interesting promo
-        <br />  <Btn text={'Get Started Now'} className={styles.btn}/></p>
-        
+          <h1>The Technology <br /> Beyond Artificial <br /> Intelligent</h1>
+          <p>We provide many features that you can use cheaply and easily. Try it <br /> now and get an interesting promo
+            <br />  <Btn text={'Get Started Now'} className={styles.btn} /></p>
+
         </div>
         <div>
           <Image

@@ -6,9 +6,9 @@ import Team from './Components/Team/Team'
 export default function page() {
   return (
     <main>
-      <Hero/>
-      <About/>
-      <Team/>
+      <Hero />
+      <About />
+      <Team />
     </main>
   )
 }

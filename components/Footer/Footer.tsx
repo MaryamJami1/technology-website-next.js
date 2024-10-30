@@ -16,12 +16,12 @@ export default function Footer() {
                 <p>Copyright 2024 <span> WebTeck </span>. All Rights Reserved.</p>
             </div>
             <div className={styles.icons}>
-          <Link href={'https://www.facebook.com/'} className={styles.link}><RiFacebookFill className={styles.icon}/></Link>  
+                <Link href={'https://www.facebook.com/'} className={styles.link}><RiFacebookFill className={styles.icon} /></Link>
 
-          <Link href={'https://www.linkedin.com/signup'} className={styles.link}> <FaLinkedinIn className={styles.icon}/></Link> 
+                <Link href={'https://www.linkedin.com/signup'} className={styles.link}> <FaLinkedinIn className={styles.icon} /></Link>
 
-          <Link href={'https://twitter.com/login'} className={styles.link}> <FaTwitter className={styles.icon}/></Link> 
-          <Link href={'https://www.youtube.com/'} className={styles.link}> <FaYoutube className={styles.icon} /></Link> 
+                <Link href={'https://twitter.com/login'} className={styles.link}> <FaTwitter className={styles.icon} /></Link>
+                <Link href={'https://www.youtube.com/'} className={styles.link}> <FaYoutube className={styles.icon} /></Link>
 
 
 

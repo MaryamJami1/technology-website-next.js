@@ -14,13 +14,13 @@ export default function Brand() {
             <div className={styles.hr}> </div>
             <div className={styles.content}>
                 <div className={styles.brand}>
-                    <Brand1/>
+                    <Brand1 />
                     <Brand2 />
                     <Brand5 />
                     <Brand3 />
                     <Brand4 />
                     <Brand6 />
-                   
+
                 </div>
             </div>
             <div className={styles.hr}> </div>

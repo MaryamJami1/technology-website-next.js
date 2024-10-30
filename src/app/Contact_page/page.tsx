@@ -7,11 +7,11 @@ import MapSection from './Components/Map/Map'
 export default function page() {
   return (
     <div>
-      <Contact/>
-      <ContactUs/>
-      <MapSection/>
-      <Form/>
-    
+      <Contact />
+      <ContactUs />
+      <MapSection />
+      <Form />
+
     </div>
   )
 }

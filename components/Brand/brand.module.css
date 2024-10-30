@@ -32,10 +32,12 @@
     .hr {
         margin: 3rem auto;
     }
+
     .content {
         padding: 3rem 0;
         background-size: contain;
     }
+
     .brand {
         flex-wrap: wrap;
         gap: 1rem;
@@ -47,10 +49,12 @@
     .hr {
         margin: 2rem auto;
     }
+
     .content {
         padding: 2rem 0;
         height: auto;
     }
+
     .brand {
         flex-direction: column;
         height: auto;
@@ -58,4 +62,3 @@
         align-items: center;
     }
 }
-

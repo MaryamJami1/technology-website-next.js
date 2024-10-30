@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -23,7 +23,7 @@ export default function Navbar() {
           {isOpen ? (
             <span>&times;</span>
           ) : (
-            <span>&#9776;</span> 
+            <span>&#9776;</span>
           )}
         </button>
         <ul className={`${styles.ul} ${isOpen ? styles.menuOpen : ''}`}>

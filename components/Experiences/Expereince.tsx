@@ -16,14 +16,14 @@ export default function Expereince() {
             </div>
             <div className={styles.boxes}>
                 <div className={styles.box4}>
-                    <div className={styles.card} ><Service className={styles.icon}/><h2>Image generator</h2> <p>Artificial Intelligence (AI) refers to the development of computer systems that can perform.</p></div>
-                    <div className={styles.card}><Service2 className={styles.icon}/><h2>Generate Content</h2> <p>Narrow AI designed to perform specific tasks, such as language a translation, image generate</p></div>
-                    <div className={styles.card}><Service3 className={styles.icon}/><h2> Algorithmic Solution</h2> <p>Artificial Intelligence (AI) refers to the development of computer systems that can perform.</p></div>
-                    <div className={styles.card}><Service4 className={styles.icon}/><h2> NFT Creator</h2> <p>Narrow AI designed to perform specific tasks, such as language a translation, image generate.</p></div>
+                    <div className={styles.card} ><Service className={styles.icon} /><h2>Image generator</h2> <p>Artificial Intelligence (AI) refers to the development of computer systems that can perform.</p></div>
+                    <div className={styles.card}><Service2 className={styles.icon} /><h2>Generate Content</h2> <p>Narrow AI designed to perform specific tasks, such as language a translation, image generate</p></div>
+                    <div className={styles.card}><Service3 className={styles.icon} /><h2> Algorithmic Solution</h2> <p>Artificial Intelligence (AI) refers to the development of computer systems that can perform.</p></div>
+                    <div className={styles.card}><Service4 className={styles.icon} /><h2> NFT Creator</h2> <p>Narrow AI designed to perform specific tasks, such as language a translation, image generate.</p></div>
                 </div>
-               
-               
-                
+
+
+
 
 
                 <div className={styles.box1}>
@@ -32,15 +32,15 @@ export default function Expereince() {
 
                     </div>
                     <p className={styles.para}><span>5,000</span>+ clients across <br /> 25 countries.</p>
-                    
-                        <Image
-                            src={'/expereince/service_2.png'}
-                            alt={"robot"}
-                            height={290}
-                            width={450}
-                            className={styles.img}
-                        />
-                    
+
+                    <Image
+                        src={'/expereince/service_2.png'}
+                        alt={"robot"}
+                        height={290}
+                        width={450}
+                        className={styles.img}
+                    />
+
 
                 </div>
             </div>

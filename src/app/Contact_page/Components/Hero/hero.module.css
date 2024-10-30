@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    background-image:url('/contact_section/23084167882082.jpg');
+    background-image: url('/contact_section/23084167882082.jpg');
     height: 100vh;
     background-size: cover;
     background-position: top;
@@ -28,7 +28,7 @@
     margin-bottom: 10px;
     font-weight: bold;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .links {
@@ -38,7 +38,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
 
 .link {

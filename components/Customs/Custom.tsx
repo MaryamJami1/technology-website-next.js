@@ -18,16 +18,16 @@ export default function Custom() {
             </div>
 
             <div className={styles.buttons}>
-                <button className={styles.btn}><Icon/> Icon Support</button>
-                <button className={styles.btn}><Icon2/> Robo Genius</button>
-                <button className={styles.btn}><Icon3/> Vision AI Tech</button>
-                <button className={styles.btn}><Icon4/> Blockchain Data</button>
-                <button className={styles.btn}><Icon5/> Data Interface</button>
-                <button className={styles.btn}><Icon6/> Digital Business</button>
-                <button className={styles.btn}><Icon7/> Open AI Tech</button>
+                <button className={styles.btn}><Icon /> Icon Support</button>
+                <button className={styles.btn}><Icon2 /> Robo Genius</button>
+                <button className={styles.btn}><Icon3 /> Vision AI Tech</button>
+                <button className={styles.btn}><Icon4 /> Blockchain Data</button>
+                <button className={styles.btn}><Icon5 /> Data Interface</button>
+                <button className={styles.btn}><Icon6 /> Digital Business</button>
+                <button className={styles.btn}><Icon7 /> Open AI Tech</button>
             </div>
 
-            <Marquee/>
+            <Marquee />
         </div>
     )
 }

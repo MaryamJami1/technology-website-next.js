@@ -4,9 +4,9 @@
   overflow: hidden;
   display: flex;
   align-items: center;
-  background: linear-gradient(to bottom, #11cf72, #74d70e); 
+  background: linear-gradient(to bottom, #11cf72, #74d70e);
   position: relative;
-margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .marquee-content {
@@ -27,6 +27,7 @@ margin-top: 5rem;
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }

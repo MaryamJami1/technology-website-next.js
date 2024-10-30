@@ -14,7 +14,7 @@ import Brand from '../../components/Brand/Brand'
 export default function page() {
   return (
     <main>
-     
+
       <Hero />
       <Expereince />
       <Brand />
@@ -22,7 +22,7 @@ export default function page() {
       <Custom />
       <Studies />
       <Feedback />
- 
+
     </main>
   )
 }

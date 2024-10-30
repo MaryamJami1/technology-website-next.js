@@ -12,6 +12,7 @@
 .img_div {
   padding: 3rem;
 }
+
 .img {
   border-radius: 60px;
 }
@@ -34,7 +35,7 @@
   content: "";
   position: absolute;
   top: 50%;
-  width: 35px; 
+  width: 35px;
   height: 2px;
   background-color: #23b852;
   right: -45px;
@@ -73,7 +74,8 @@
   color: #fff;
 }
 
-.child_1, .child_2 {
+.child_1,
+.child_2 {
   background: linear-gradient(to bottom, #025220, #4eaa19);
   width: 12rem;
   height: 10rem;
@@ -100,27 +102,34 @@
     height: auto;
     margin-top: 4rem;
   }
+
   .img_div {
-      padding: 2rem;
+    padding: 2rem;
   }
+
   .text h3 {
-      font-size: 2.3rem;
+    font-size: 2.3rem;
   }
+
   .para {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
   }
+
   .img {
     height: 30rem;
     width: 40rem;
   }
+
   .aiMain {
-      flex-direction: row;
-      gap: 1rem;
+    flex-direction: row;
+    gap: 1rem;
   }
-  .child_1, .child_2 {
-      width: 10.5rem;
-      height: 8.5rem;
-      padding: 30px 0;
+
+  .child_1,
+  .child_2 {
+    width: 10.5rem;
+    height: 8.5rem;
+    padding: 30px 0;
   }
 }
 
@@ -128,69 +137,82 @@
 /* For screens up to 750px */
 @media (max-width: 750px) {
   .bg {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 4rem;
   }
+
   .img_div {
-      padding: 1.5rem;
+    padding: 1.5rem;
   }
+
   .text {
-      padding: 2rem 1rem;
+    padding: 2rem 1rem;
   }
+
   .text h3 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .img {
     height: 20rem;
     width: 28rem;
   }
+
   .aiMain {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
   }
 
   .two {
-      padding-left: 0;
+    padding-left: 0;
   }
-  .child_1, .child_2 {
-      width: 14rem;
-      height: 8rem;
-      padding: 25px 0;
-      margin-top: 2rem;
+
+  .child_1,
+  .child_2 {
+    width: 14rem;
+    height: 8rem;
+    padding: 25px 0;
+    margin-top: 2rem;
   }
 }
 
 /* For screens up to 450px */
 @media (max-width: 450px) {
   .bg {
-      border-radius: 30px;
+    border-radius: 30px;
   }
+
   .img_div {
-      padding: 1rem;
+    padding: 1rem;
   }
+
   .text h3 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
+
   .img {
     height: 15rem;
     width: 15rem;
   }
+
   .para {
-      font-size: 0.9rem;
-      line-height: 1.4;
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
+
   .ai {
-      height: 10rem;
-      width: 12rem;
-      padding-bottom: 2rem;
+    height: 10rem;
+    width: 12rem;
+    padding-bottom: 2rem;
   }
-  .child_1, .child_2 {
-      width: 12rem;
-      height: 7rem;
-      padding: 20px 0;
+
+  .child_1,
+  .child_2 {
+    width: 12rem;
+    height: 7rem;
+    padding: 20px 0;
   }
 }

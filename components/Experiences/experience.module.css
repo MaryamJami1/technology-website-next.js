@@ -1,21 +1,22 @@
-/* Original Styling */
-
 .content {
   text-align: center;
   padding: 5rem;
   text-transform: capitalize;
   position: relative;
 }
+
 .content p {
   font-size: 1.2rem;
   color: #23b852;
   line-height: 3;
 }
+
 .content h2 {
   font-size: 2.5rem;
   font-weight: bolder;
   color: white;
 }
+
 .linebefore {
   position: relative;
   display: inline-block;
@@ -23,6 +24,7 @@
   color: #23b852;
   text-transform: uppercase;
 }
+
 .linebefore::before,
 .linebefore::after {
   content: "";
@@ -32,22 +34,27 @@
   height: 2px;
   background-color: #23b852;
 }
+
 .linebefore::before {
   left: -50px;
 }
+
 .linebefore::after {
   right: -50px;
 }
+
 .boxes {
   width: 100%;
   display: flex;
   padding: 0px 3.5rem;
 }
+
 .box4 {
   display: flex;
   width: 60%;
   flex-wrap: wrap;
 }
+
 .card {
   height: 16rem;
   width: 20rem;
@@ -58,35 +65,43 @@
   padding: 1.5rem;
   text-align: center;
 }
+
 .card h2 {
   color: #fff;
   line-height: 2.5;
 }
+
 .card h2:hover {
   color: #23b852;
   cursor: context-menu;
 }
+
 .card p {
   color: gray;
   line-height: 1.6;
   font-size: 18px;
 }
+
 .icon {
   transition: transform 0.2s ease;
   transform-origin: center center;
 }
+
 .icon:hover {
   animation: shrink-back-rotate 1s ease-in-out forwards;
 }
+
 @keyframes shrink-back-rotate {
   0% {
-      transform: scale(1) translateZ(0) rotate(0deg);
+    transform: scale(1) translateZ(0) rotate(0deg);
   }
+
   50% {
-      transform: scale(0.5) translateZ(-100px) rotateY(90deg);
+    transform: scale(0.5) translateZ(-100px) rotateY(90deg);
   }
+
   100% {
-      transform: scale(1) translateZ(0) rotateY(360deg);
+    transform: scale(1) translateZ(0) rotateY(360deg);
   }
 }
 
@@ -96,25 +111,30 @@
   background-color: #16181d;
   border-radius: 20px;
 }
+
 .shape {
   padding: 1.3rem 2.3rem;
   display: flex;
 }
+
 .shape h2 {
   font-size: 2.2rem;
   width: 60%;
   color: #fff;
 }
+
 .shape h2:hover {
   color: #23b852;
   cursor: context-menu;
 }
+
 .para {
   font-size: 1.2rem;
   padding: 0 2rem;
   color: #fff;
   line-height: 1.5;
 }
+
 .para span {
   color: #23b852;
 }
@@ -125,133 +145,159 @@
 
 @media (max-width: 1025px) {
   .content {
-      padding: 3rem;
+    padding: 3rem;
   }
+
   .content h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
+
   .content p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
+
   .boxes {
-      flex-direction: column;
-      padding: 0 1rem;
+    flex-direction: column;
+    padding: 0 1rem;
   }
+
   .box4 {
-      width: 100%;
-      justify-content: center;
+    width: 100%;
+    justify-content: center;
   }
+
   .box1 {
-      width: 60%;
-      margin: 1rem auto;
+    width: 60%;
+    margin: 1rem auto;
   }
+
   .card {
-      width: 90%;
-      height: auto;
-      padding: 1rem;
-      margin: 1rem auto;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem auto;
   }
+
   .shape h2 {
-      font-size:2.2rem;
-      width: 100%;
+    font-size: 2.2rem;
+    width: 100%;
   }
-.img{
-  height: 22rem;
-  width: 26rem;
-}
-.para {
+
+  .img {
+    height: 22rem;
+    width: 26rem;
+  }
+
+  .para {
     font-size: 1.2rem;
     padding: 0 2.5rem;
     line-height: 1;
-}
- 
+  }
+
 }
 
 /* For screens up to 750px */
 @media (max-width: 750px) {
   .content {
-      padding: 3rem;
+    padding: 3rem;
   }
+
   .content h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
+
   .content p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
+
   .boxes {
-      flex-direction: column;
-      padding: 0 1rem;
+    flex-direction: column;
+    padding: 0 1rem;
   }
+
   .box4 {
-      width: 100%;
-      justify-content: center;
+    width: 100%;
+    justify-content: center;
   }
+
   .box1 {
-      width: 80%;
-      margin: 1rem auto;
+    width: 80%;
+    margin: 1rem auto;
   }
+
   .card {
-      width: 90%;
-      height: auto;
-      padding: 1rem;
-      margin: 1rem auto;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem auto;
   }
+
   .shape h2 {
-      font-size:2.2rem;
-      width: 100%;
+    font-size: 2.2rem;
+    width: 100%;
   }
-.img{
-  height: 22rem;
-  width: 22rem;
-}
-.para {
+
+  .img {
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .para {
     font-size: 1.2rem;
     padding: 0 2.5rem;
     line-height: 1;
-}
- 
+  }
+
 }
 
 
 @media (max-width: 500px) {
   .content {
-      padding: 2rem;
+    padding: 2rem;
   }
+
   .content h2 {
-      font-size: 1.6rem;
+    font-size: 1.6rem;
   }
+
   .content p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
+
   .linebefore {
-      font-size: 14px;
+    font-size: 14px;
   }
+
   .linebefore::before,
   .linebefore::after {
-      width: 25px;
+    width: 25px;
   }
 
   .card {
-      width: 100%;
-      height: auto;
-      padding: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
   }
+
   .shape h2 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
+
   .box1 {
     width: 100%;
     margin: 0;
-}
-  .img{
+  }
+
+  .img {
     height: 23.3rem;
     width: 20rem;
     margin: 0 0 0 4rem;
 
   }
+
   .para {
-      font-size: 1.2rem;
-      padding: 0 2.5rem;
-      line-height: 1;
+    font-size: 1.2rem;
+    padding: 0 2.5rem;
+    line-height: 1;
   }
 }

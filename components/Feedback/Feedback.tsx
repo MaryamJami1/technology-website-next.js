@@ -34,7 +34,7 @@ export default function feedback() {
                         <div className={styles.img}>
                             <div>
                                 <Image src={'/feedback/testi_img_2.png'} alt={'logo'} width={120} height={50} />
-                                <p>Working with this firm has been an exceptional experience. <br /> Their professionalism and attention to detail truly stand out. <br /> They listened to my needs and provided tailored solutions. <br /> The communication throughout the process was top-notch. <br /> I would highly recommend their services to anyone <br /> seeking quality support.</p> 
+                                <p>Working with this firm has been an exceptional experience. <br /> Their professionalism and attention to detail truly stand out. <br /> They listened to my needs and provided tailored solutions. <br /> The communication throughout the process was top-notch. <br /> I would highly recommend their services to anyone <br /> seeking quality support.</p>
 
                             </div>
 
@@ -53,7 +53,7 @@ export default function feedback() {
                         <div className={styles.img}>
                             <div>
                                 <Image src={'/feedback/testi_img_2.png'} alt={'logo'} width={120} height={50} />
-                                <p>Working with this firm has been an exceptional experience. <br /> Their professionalism and attention to detail truly stand out. <br /> They listened to my needs and provided tailored solutions. <br /> The communication throughout the process was top-notch. <br /> I would highly recommend their services to anyone <br /> seeking quality support.</p>  
+                                <p>Working with this firm has been an exceptional experience. <br /> Their professionalism and attention to detail truly stand out. <br /> They listened to my needs and provided tailored solutions. <br /> The communication throughout the process was top-notch. <br /> I would highly recommend their services to anyone <br /> seeking quality support.</p>
 
                             </div>
 
@@ -70,7 +70,7 @@ export default function feedback() {
                 </div>
             </div>
 
-           
+
         </div>
     )
 }

@@ -3,12 +3,12 @@
     height: 5.3rem;
     width: 100%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
     z-index: 1000;
-    padding: 0 2rem; 
+    padding: 0 2rem;
 }
 
 .logo {
@@ -24,7 +24,7 @@
 
 
 .btn {
-    display: block; 
+    display: block;
     background: linear-gradient(to bottom, #3ee63e, #25a425);
     color: white;
     border: none;
@@ -34,11 +34,11 @@
     transition: background-color 0.3s ease;
     font-weight: 600;
     font-size: 16px;
-  }
-  
-  .btn:hover {
-      background: linear-gradient(to right, #25a425, #3ee63e); 
-    }
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #25a425, #3ee63e);
+}
 
 .ul li {
     list-style: none;
@@ -66,20 +66,20 @@
 
 .menuOpen {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 5.3rem; 
-    left: 0; 
-    background-color: rgba(10, 10, 10, 0.9); 
-    border-radius: 8px; 
+    top: 5.3rem;
+    left: 0;
+    background-color: rgba(10, 10, 10, 0.9);
+    border-radius: 8px;
     padding: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 
 .menuToggle {
-    display: none; 
+    display: none;
     font-size: 24px;
     background: none;
     border: none;
@@ -89,9 +89,9 @@
 
 
 .menuToggle span {
-    font-size: 30px; 
+    font-size: 30px;
     display: inline-block;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 
@@ -103,19 +103,19 @@
     }
 
     .menuOpen {
-        display: flex; 
+        display: flex;
     }
 
     .menuToggle {
-        display: block; 
+        display: block;
     }
 
     .btn {
-        display: none; 
+        display: none;
     }
 
     .ul li {
-        padding-left: 0; 
+        padding-left: 0;
         padding-bottom: 1rem;
     }
 }
