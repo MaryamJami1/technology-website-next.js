@@ -11,10 +11,9 @@ import Brand from '../../components/Brand/Brand'
 
 
 
-export default function page() {
+export default function Page() {
   return (
     <main>
-
       <Hero />
       <Expereince />
       <Brand />
