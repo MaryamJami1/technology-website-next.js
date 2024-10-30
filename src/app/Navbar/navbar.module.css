@@ -3,12 +3,12 @@
     height: 5.3rem;
     width: 100%;
     display: flex;
-    justify-content: space-between; /* Keep it as space-between */
+    justify-content: space-between; 
     align-items: center;
     position: fixed;
     top: 0;
     z-index: 1000;
-    padding: 0 2rem; /* Added padding for better spacing */
+    padding: 0 2rem; 
 }
 
 .logo {
@@ -18,13 +18,13 @@
 .ul {
     display: flex;
     font-size: 1.5rem;
-    gap: 5rem; /* Added gap instead of padding-left for list items */
-    transition: max-height 0.3s ease; /* Smooth transition for menu open/close */
+    gap: 5rem;
+    transition: max-height 0.3s ease;
 }
 
-/* Hide the button on small screens */
+
 .btn {
-    display: block; /* Ensure it's displayed on larger screens */
+    display: block; 
 }
 
 .ul li {
@@ -40,9 +40,9 @@
     color: #3ee63e;
 }
 
-/* Mobile styles */
+
 .menuToggle {
-    display: none; /* Hide menu toggle button by default */
+    display: none;
     font-size: 24px;
     background: none;
     border: none;
@@ -50,18 +50,18 @@
     cursor: pointer;
 }
 
-/* Dropdown styles */
+
 .menuOpen {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
     width: 100%;
     position: absolute;
-    top: 5.3rem; /* Position below the navbar */
-    left: 0; /* Align with the navbar */
-    background-color: rgba(10, 10, 10, 0.9); /* Semi-transparent background */
-    border-radius: 8px; /* Rounded corners */
-    padding: 1rem; /* Padding inside the dropdown */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+    top: 5.3rem; 
+    left: 0; 
+    background-color: rgba(10, 10, 10, 0.9); 
+    border-radius: 8px; 
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -74,35 +74,35 @@
     cursor: pointer;
 }
 
-/* Ensure the icon is properly aligned */
+
 .menuToggle span {
     font-size: 30px; 
     display: inline-block;
-    transition: transform 0.3s ease; /* Smooth transition for icon change */
+    transition: transform 0.3s ease; 
 }
 
 
 
-/* Responsive styles */
+
 @media (max-width: 810px) {
     .ul {
-        display: none; /* Hide the menu by default */
+        display: none;
     }
 
     .menuOpen {
-        display: flex; /* Show the menu when open */
+        display: flex; 
     }
 
     .menuToggle {
-        display: block; /* Show the toggle button on mobile */
+        display: block; 
     }
 
     .btn {
-        display: none; /* Hide the button on small screens */
+        display: none; 
     }
 
     .ul li {
-        padding-left: 0; /* Remove padding for mobile list items */
-        padding-bottom: 1rem; /* Space between list items */
+        padding-left: 0; 
+        padding-bottom: 1rem;
     }
 }
