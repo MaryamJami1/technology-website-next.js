@@ -1,0 +1,82 @@
+/* styles/ContactSection.module.css */
+.contactSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.linebefore {
+    padding: 3rem 0;
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 3;
+}
+
+
+.contactItem {
+    width: 30%;
+    padding: 3rem 1rem;
+    background-color: #100f0ff6;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(231, 224, 224, 0.422); /* Box shadow for a soft, elevated effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(231, 224, 224, 0.901); /* Shadow on hover for a more pronounced effect */
+}
+
+.iconWrapper {
+    background-color: #28a745; /* Green background */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 8px rgb(154, 147, 147); /* Shadow around the icon */
+}
+
+.icon {
+    font-size: 2rem;
+    color: #fff; /* White icon color */
+}
+
+.h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.p {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .contactSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .contactItem {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+   
+.linebefore {
+    padding: 1.8rem 0;
+    font-size: 1.5rem;
+
+}
+
+}

@@ -1,5 +1,4 @@
-// pages/contact.js
-import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
+
 import styles from './hero.module.css';
 import Link from 'next/link';
 
@@ -10,7 +9,7 @@ export default function Contact() {
         <h1 className={styles.heading}>Contact Us</h1>
         <div className={styles.links}>
           <Link href="/" className={styles.link}>Home</Link>
-          <Link href="/" className={styles.link}>About us</Link>
+          <Link href="/About_page" className={styles.link}>About us</Link>
           <span className={styles.separator}> / </span>
           <span className={styles.current}>About Us</span>
         </div>
